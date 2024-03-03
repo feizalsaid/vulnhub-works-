@@ -1,0 +1,38 @@
+base64 decrypting gives KRYPTONISGREAT
+rot13 decryption gives  LEVEL TWO PASSWORD ROTTEN
+l2-3 there's an encrypt file  which requires a keyfile to encrypt 
+i put  in abc it gave back mno
+i put in the contents of  the password and it gave back AYCQYPGQCYQWOMQEMDUEQMEK 
+ i'm supposed to use tr '[M-ZA-Lm-za-l]' '[A-MN-Za-mn-z]'
+ i need to relearn tr command 
+ password was CAESARISEASY
+
+l3-4 frequency analysis
+ most prevalent letters in the found files 
+ 	found1  found2	foundd3
+ 	 	c= 6.9 	4.0	6.1
+ 	j=6.6	7.4	7.3	
+    n = 4.8 6.3	5.5	
+ 	g =5.3 5.2	6.2	
+ 	b = 5.6	6.1	5.3
+ 	d=4.5  5.6	3.9
+ 	q=10.1  8.7	8.6
+ 	u= 6.5  6.1 4.8
+ 	s=		11.4 103
+frequency analysis came in handy jcrypttool was pivotal
+to check whicj=h letter replaced which 
+passwd was brute
+
+quipquip
+## i need to put more time into crytptography
+
+l4-5 e
+vigenere cipher
+key length 6ear text
+vigener cipher
+found the passwd as clear text
+password is cleartext
+ l5-6 
+  polyaplhabetic cipher
+
+l6 stopped there for now
