@@ -1,0 +1,9 @@
+leviathan level one :
+	cat backup | grep -i password
+
+leviathan level two :
+	
+	figured out how to ltrace ./really handy when checking out library calls made by a program
+
+leviathan level three:
+	 
