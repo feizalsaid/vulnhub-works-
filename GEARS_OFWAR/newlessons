@@ -1,0 +1,4 @@
+fcrackzip -D -u -p passwd.txt *.zip ###cracks protected zip files
+crunch 4 4 <pattern> > passwordfile ##passwd generator given a pattern 
+ smbclient -L  //$IP
+smbclient //$IP/GROUP
